@@ -1,0 +1,17 @@
+# Ignore extracted dataset folder inside dataset/
+dataset/data/
+
+# Ignore generated 15-class dataset folders
+dataset/train/
+dataset/test/
+
+# Ignore model weights
+models/
+*.pth
+*.pt
+*.h5
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
